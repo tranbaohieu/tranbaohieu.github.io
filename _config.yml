@@ -6,7 +6,7 @@ description: "A space where I share my thoughts and ideas."
 url: "https://tranbaohieu.github.io"
 
 # Theme settings
-theme: "minimal"
+theme: "minima"
 # plugins:
 #   - jekyll-remote-theme
 #   - jekyll-paginate
