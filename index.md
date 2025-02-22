@@ -15,3 +15,12 @@ This blog covers various topics that I'm passionate about. Here are my latest po
     </li>
   {% endfor %}
 </ul>
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+
