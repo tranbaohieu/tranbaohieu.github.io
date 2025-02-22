@@ -6,7 +6,16 @@ description: "A space where I share my thoughts and ideas."
 url: "https://tranbaohieu.github.io"
 
 # Theme settings
-theme: "cotes2020/jekyll-theme-chirpy"
+remote_theme: "cotes2020/jekyll-theme-chirpy"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-toc
+
 
 # Social media links
 social_links:
