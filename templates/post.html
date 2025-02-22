@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.meta.title }}</title>
+</head>
+<body>
+    <h1>{{ post.meta.title }}</h1>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+    <div>{{ post.html | safe }}</div>
+</body>
+</html>
