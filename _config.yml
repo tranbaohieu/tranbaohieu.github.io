@@ -6,7 +6,7 @@ description: "A space where I share my thoughts and ideas."
 url: "https://tranbaohieu.github.io"
 
 # Theme settings
-theme: "mmistakes/minimal-mistakes"
+theme: "minimal"
 # plugins:
 #   - jekyll-remote-theme
 #   - jekyll-paginate
@@ -24,5 +24,5 @@ social_links:
 
 # Site logo (upload a logo image to the assets folder and reference it here)
 logo: "/assets/images/logo.png"
-# paginate: 5
-# paginate_path: "/blog/page:num"
+paginate: 5
+paginate_path: "/blog/page:num"
