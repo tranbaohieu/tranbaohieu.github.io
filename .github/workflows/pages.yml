@@ -21,6 +21,10 @@ jobs:
             ${{ runner.os }}-gems-
       - name: Install dependencies
         run: bundle install
+      - name: Install dependencies
+        run: |
+          bundle config set path 'vendor/bundle'
+          bundle install
       - name: Build site
         run: bundle exec jekyll build
       - name: Deploy to GitHub Pages
