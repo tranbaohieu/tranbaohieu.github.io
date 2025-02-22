@@ -8,9 +8,6 @@ author: "Hieu Tran Bao"
 ---
 ![Me after 3 months became a chill guy](assets/images/chill_guy.jpg)
 
-
-# Why did I leave VinAI Research
-
 Finally, I have done some things. The last three months have been the craziest for me. In November of last year, I decided to quit my job at VinAI Research, the top AI company in Vietnam, and also my dream company when I was a college student. But why? Recently, I still ask myself, "Why did I leave VinAI?" I really do not know what I was thinking three months ago, but I know I had a strong motivation to change, so I chose to change my job.
 
 In early 2024, I joined a research team to study Mamba, a novel model that was really hot at that time. But six months passed, and we did not create anything significant. However, in an experiment unrelated to Mamba, we figured out that no matter what model you use, looping the model can improve extrapolation. This phenomenon has been studied in some previous research papers, but we have started developing a method to determine how long looping is enough.
