@@ -7,14 +7,6 @@ title: Welcome to My Blog
 
 Hi! This is my personal space where I share my thoughts and experiences. Feel free to explore!
 
-## 🔗 Navigation
-- [🏠 Home](/)
-- [📝 Blog](/blog)
-- [👤 About](/about)
-- [📩 Contact](/contact)
-
----
-
 ## 📢 Latest Blog Posts
 
 {% for post in site.posts %}
