@@ -1,26 +1,32 @@
 ---
-layout: home
-title: "Welcome to My Blog"
-description: "A place where I share my thoughts on technology, personal growth, and more."
+layout: default
+title: Welcome to My Blog
 ---
 
-# Welcome to My Blog!
+# 🌟 Welcome to My Blog!
 
-This blog covers various topics that I'm passionate about. Here are my latest posts:
+Hi! This is my personal space where I share my thoughts and experiences. Feel free to explore!
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
-    </li>
-  {% endfor %}
-</ul>
+## 🔗 Navigation
+- [🏠 Home](/)
+- [📝 Blog](/blog)
+- [👤 About](/about)
+- [📩 Contact](/contact)
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </ul>
-</nav>
+---
+
+## 📢 Latest Blog Posts
+
+{% for post in site.posts %}
+- **[{{ post.title }}]({{ post.url }})**  
+  _Published on {{ post.date | date: "%B %d, %Y" }}_
+{% endfor %}
+
+---
+
+## ✨ About Me
+I am passionate about technology, coding, and sharing knowledge. Stay tuned for my latest blog posts!
+
+## 📬 Get in Touch
+You can reach out to me via email or social media.
 
