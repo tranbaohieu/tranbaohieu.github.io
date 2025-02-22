@@ -3,7 +3,7 @@ layout: default
 title: Welcome to My Blog
 ---
 <p align="center">
-  <img src="/assets/images/logo.png" alt="Logo" width="150">
+  <img src="/assets/images/logo.png" alt="Logo" class="logo">
 </p>
 
 # 🌟 Welcome to My Blog!

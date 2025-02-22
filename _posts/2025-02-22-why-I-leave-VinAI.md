@@ -6,7 +6,9 @@ categories: [blog]
 tags: [introduction, markdown]
 author: "Hieu Tran Bao"
 ---
-![Me after 3 months became a chill guy](assets/images/chill_guy.jpg)
+<p align="center">
+  <img src="/assets/images/chill_guy.jpg" alt="Logo" class="logo">
+</p>
 
 Finally, I have done some things. The last three months have been the craziest for me. In November of last year, I decided to quit my job at VinAI Research, the top AI company in Vietnam, and also my dream company when I was a college student. But why? Recently, I still ask myself, "Why did I leave VinAI?" I really do not know what I was thinking three months ago, but I know I had a strong motivation to change, so I chose to change my job.
 
