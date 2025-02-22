@@ -11,3 +11,4 @@ gem "jekyll-toc"
 gem "jekyll-sitemap"
 gem "jekyll-redirect-from"
 gem "jekyll-include-cache"
+gem 'faraday-retry'
