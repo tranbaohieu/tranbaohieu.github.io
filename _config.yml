@@ -6,7 +6,7 @@ description: "A space where I share my thoughts and ideas."
 url: "https://tranbaohieu.github.io"
 
 # Theme settings
-theme: jekyll-theme-cayman   # Replace with your theme's name
+theme: minima
 
 # Social media links
 social_links:
