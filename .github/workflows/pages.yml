@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1  # ✅ Use the new maintained action
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1.4'  # ✅ Update to a valid Ruby version
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
