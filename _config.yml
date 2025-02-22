@@ -1,3 +1,17 @@
-theme: jekyll-theme-minimal  # Replace with the theme you chose
-title: "My Blog"
-description: "Welcome to my blog about [your topic]"
+# _config.yml
+
+# Basic site settings
+title: "My Awesome Blog"
+description: "A space where I share my thoughts and ideas."
+url: "https://tranbaohieu.github.io"
+
+# Theme settings
+theme: jekyll-theme-cayman   # Replace with your theme's name
+
+# Social media links
+social_links:
+  github: "https://github.com/tranbaohieu"
+  twitter: "https://twitter.com/your-username"
+
+# Site logo (upload a logo image to the assets folder and reference it here)
+logo: "/assets/images/logo.png"
