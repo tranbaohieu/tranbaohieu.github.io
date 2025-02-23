@@ -2,15 +2,14 @@
 layout: default
 title: Welcome to My Blog
 ---
+
+[🏠 Home](/) | [📝 Blog](/blog) | [👤 About](/about) | [📩 Contact](/contact)
+
 <figure style="text-align: center;">
   <img src="/assets/images/logo.png" alt="Logo" class="logo">
 </figure>
 
-# 🌟 Welcome to My Blog!
-
-Hi! This is my personal space where I share my thoughts and experiences. Feel free to explore!
-
-## 📢 Latest Blog Posts
+# 📢 Latest Blog Posts
 
 {% for post in site.posts %}
 - **[{{ post.title }}]({{ post.url }})**  
@@ -19,12 +18,6 @@ Hi! This is my personal space where I share my thoughts and experiences. Feel fr
 
 ---
 
-## ✨ About Me
-I am passionate about technology, coding, and sharing knowledge. Stay tuned for my latest blog posts!
-
 ## 📬 Get in Touch
-You can reach out to me via email or social media.
-
-## 🔗 Navigation
-[🏠 Home](/) | [📝 Blog](/blog) | [👤 About](/about) | [📩 Contact](/contact)
+You can reach out to me via [Email](hieubkls98@gmail.com).
 
