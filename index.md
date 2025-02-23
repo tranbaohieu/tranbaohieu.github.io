@@ -3,11 +3,11 @@ layout: default
 title: Welcome to My Blog
 ---
 
-Tran Bao Hieu | [👤 About](/about) | [📩 Contact](/contact)
+Tran Bao Hieu | [👤 About](/about)
 
-<figure style="text-align: right;">
+<!-- <figure style="text-align: right;">
   <img src="/assets/images/logo.png" alt="Logo" width=300>
-</figure>
+</figure> -->
 
 ## 📢 Latest Blog Posts
 
@@ -17,7 +17,5 @@ Tran Bao Hieu | [👤 About](/about) | [📩 Contact](/contact)
 {% endfor %}
 
 ---
-
-## 📬 Get in Touch
-You can reach out to me via [Email](hieubkls98@gmail.com).
+You can reach out to me via [📩 Email](hieubkls98@gmail.com).
 
