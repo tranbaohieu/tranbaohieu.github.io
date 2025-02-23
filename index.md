@@ -2,6 +2,10 @@
 layout: default
 title: Welcome to My Blog
 ---
+<figure style="text-align: center;">
+  <img src="/assets/images/logo.png" alt="Logo" class="logo">
+  <figcaption>Me after 3 months became a chill guy</figcaption>
+</figure>
 
 # 🌟 Welcome to My Blog!
 
