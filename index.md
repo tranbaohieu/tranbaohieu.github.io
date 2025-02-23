@@ -6,7 +6,7 @@ title: Welcome to My Blog
 Tran Bao Hieu | [👤 About](/about) | [📩 Contact](/contact)
 
 <figure style="text-align: right;">
-  <img src="/assets/images/logo.png" alt="Logo" class="logo">
+  <img src="/assets/images/logo.png" alt="Logo" width=300>
 </figure>
 
 ## 📢 Latest Blog Posts
