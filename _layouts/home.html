@@ -30,15 +30,25 @@ title: Welcome to My Blog
         color: #555;
     }
 
-    .profile-img {
-        width: 150px;
-        border-radius: 50%;
-        margin: 20px 0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    ul {
+        list-style: none;
+        padding: 0;
     }
 
-    .button-container {
-        margin: 20px 0;
+    li {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #0056b3;
     }
 
     .button {
@@ -55,51 +65,20 @@ title: Welcome to My Blog
     .button:hover {
         background: #0056b3;
     }
-
-    .blog-list {
-        text-align: left;
-        margin: 0 auto;
-        max-width: 600px;
-    }
-
-    .blog-list ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .blog-list li {
-        margin: 10px 0;
-        font-size: 18px;
-    }
-
-    .blog-list a {
-        text-decoration: none;
-        color: #007bff;
-        font-weight: bold;
-        transition: color 0.3s;
-    }
-
-    .blog-list a:hover {
-        color: #0056b3;
-    }
 </style>
 
 <div class="container">
     <h1>🌟 Welcome to My Blog!</h1>
-    <!-- <img src="/assets/images/logo.png" alt="Cool Programmer" class="profile-img"> -->
     <p>Hi! This is my personal space where I share my thoughts and experiences. Feel free to explore!</p>
 
-    <div class="button-container">
-        <a href="/about/" class="button">👤 About</a>
-        <a href="/contact/" class="button">📩 Contact</a>
-    </div>
+    <h2>🔗 Quick Links</h2>
+    <a href="/about/" class="button">👤 About</a>
+    <a href="/contact/" class="button">📩 Contact</a>
 
     <h2>📢 Latest Blog Posts</h2>
-    <div class="blog-list">
-        <ul>
-            {% for post in site.posts %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
-            {% endfor %}
-        </ul>
-    </div>
+    <ul>
+        {% for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+        {% endfor %}
+    </ul>
 </div>
