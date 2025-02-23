@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: Welcome to My Blog
 ---
@@ -10,12 +10,12 @@ title: Welcome to My Blog
   <img src="/assets/images/logo.png" alt="Logo" width=300>
 </figure> -->
 
-## 📢 Latest Blog Posts
+<!-- ## 📢 Latest Blog Posts
 
 {% for post in site.posts %}
 - **[{{ post.title }}]({{ post.url }})**  
   _Published on {{ post.date | date: "%B %d, %Y" }}_
-{% endfor %}
+{% endfor %} --> -->
 
 <!-- --- -->
 <!-- - [📩 Email](hieubkls98@gmail.com) -->
