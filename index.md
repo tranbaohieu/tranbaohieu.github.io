@@ -2,7 +2,7 @@
 layout: default
 title: Welcome to My Blog
 ---
-# Welcome to my blog
+# Welcome to Hieu blog
 
 ## Tran Bao Hieu | [👤 About](/about)
 
@@ -10,7 +10,7 @@ title: Welcome to My Blog
   <img src="/assets/images/logo.png" alt="Logo" width=300>
 </figure> -->
 
-## 📢 Latest Blog Posts
+<!-- ## 📢 Latest Blog Posts -->
 
 {% for post in site.posts %}
 - **[{{ post.title }}]({{ post.url }})**  
@@ -18,5 +18,5 @@ title: Welcome to My Blog
 {% endfor %}
 
 ---
-[📩 Email](hieubkls98@gmail.com).
+- [📩 Email](hieubkls98@gmail.com).
 
