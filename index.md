@@ -4,7 +4,7 @@ title: Welcome to My Blog
 ---
 # Welcome to Hieu blog
 
-## Tran Bao Hieu | [👤 About](/about)
+## [Tran Bao Hieu](/about)
 
 <!-- <figure style="text-align: right;">
   <img src="/assets/images/logo.png" alt="Logo" width=300>
@@ -18,5 +18,5 @@ title: Welcome to My Blog
 {% endfor %}
 
 ---
-- [📩 Email](hieubkls98@gmail.com).
-
+- [📩 Email](hieubkls98@gmail.com)
+- []
