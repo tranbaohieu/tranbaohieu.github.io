@@ -2,9 +2,6 @@
 layout: default
 title: Welcome to My Blog
 ---
-<p align="center">
-  <img src="/assets/images/logo.png" alt="Logo" class="logo">
-</p>
 
 # 🌟 Welcome to My Blog!
 
@@ -24,4 +21,7 @@ I am passionate about technology, coding, and sharing knowledge. Stay tuned for 
 
 ## 📬 Get in Touch
 You can reach out to me via email or social media.
+
+## 🔗 Navigation
+[🏠 Home](/) | [📝 Blog](/blog) | [👤 About](/about) | [📩 Contact](/contact)
 
